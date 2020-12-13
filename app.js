@@ -64,4 +64,4 @@ app.post("/",function (req,res) {
 
 
 //Is to bind the connections and to specify the PORT    
-app.listen(3500)
+app.listen(process.env.PORT || 3500)
